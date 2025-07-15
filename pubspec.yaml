@@ -1,0 +1,63 @@
+name: student_planner_reminder
+description: A Flutter Student Planner & Reminder app.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.7
+  google_fonts: ^6.0.0
+  lottie: ^2.7.0
+  google_sign_in: ^6.1.5
+
+  # Firebase
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.19.0
+  cloud_firestore: ^4.12.2
+
+  # Kalender
+  table_calendar: ^3.0.9
+
+  # Tanggal dan waktu
+  intl: ^0.18.1
+
+  # Notifikasi lokal
+  flutter_local_notifications: ^14.1.1
+  timezone: ^0.9.2
+
+  # Ikon iOS-style
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/google.svg
+    - assets/icon/branding_text.png
+    - assets/icon/tidy.png
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/tidy.png"
+
+flutter_native_splash:
+  color: "#F4F9FF"
+  image: assets/icon/tidy.png
+  android: true
+  ios: false
+
+  android_12:
+    image: assets/icon/branding_text.png
+    icon_background_color: "#F4F9FF"
+    color: "#F4F9FF"

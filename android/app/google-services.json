@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "938391243558",
+    "project_id": "studentplaner-d3910",
+    "storage_bucket": "studentplaner-d3910.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938391243558:android:b8791f5aeefa2501704fe7",
+        "android_client_info": {
+          "package_name": "com.example.student_planner_reminder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAasehRzpnoXCZFfV3A86kYtfvgy8CbDdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
